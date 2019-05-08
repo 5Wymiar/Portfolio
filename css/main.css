@@ -1,0 +1,33 @@
+body {
+  height: 100%;
+  background: #087CA7;
+  color: #C2D3CD;
+  font-family: "Montserrat", sans-serif;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, body a {
+  margin: 0;
+}
+
+body nav li {
+  line-height: 2em;
+  font-size: 1.2em;
+  color: white;
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+body a {
+  text-decoration: none;
+  color: #C2D3CD;
+}
+
+body a :hover {
+  -webkit-transform: scale(1.005);
+          transform: scale(1.005);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  color: #56494C;
+}
+/*# sourceMappingURL=main.css.map */
