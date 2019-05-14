@@ -2,6 +2,7 @@ body {
   height: 100%;
   background: #087CA7;
   color: #C2D3CD;
+  margin: 0;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -9,7 +10,13 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body ol, 
   margin: 0;
 }
 
-body nav li {
+nav {
+  text-align: right;
+  padding: .3em;
+}
+
+nav li {
+  padding: .2em;
   line-height: 2em;
   font-size: 1.2em;
   color: white;
@@ -18,16 +25,61 @@ body nav li {
   text-transform: uppercase;
 }
 
-body a {
+a {
   text-decoration: none;
   color: #C2D3CD;
 }
 
-body a :hover {
+a :hover {
   -webkit-transform: scale(1.005);
           transform: scale(1.005);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
   color: #56494C;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+
+section.welcome {
+  padding-top: 4em;
+  height: calc(100vh - 4em);
+  font-size: 3em;
+}
+
+section.work {
+  background: #232C33;
+  overflow: hidden;
+  position: relative;
+  padding-top: 7em;
+  height: calc(100vh - 4em);
+  font-size: 2em;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+section.contact {
+  background: #BBBE64;
+  padding-top: 7em;
+  height: calc(100vh - 4em);
+  font-size: 2em;
+}
+
+section.quality {
+  background: #502F4C;
+  padding-top: 7em;
+  height: calc(100vh - 4em);
+  font-size: 2em;
+}
+
+section.attention {
+  background: #DADFF7;
+  color: black;
+  padding-top: 7em;
+  height: calc(100vh - 4em);
+  font-size: 2em;
 }
 /*# sourceMappingURL=main.css.map */
