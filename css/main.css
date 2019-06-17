@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100%;
   background: #087CA7;
@@ -63,6 +67,8 @@ section.work {
 
 section.contact {
   background: #BBBE64;
+  overflow: hidden;
+  position: relative;
   padding-top: 7em;
   height: calc(100vh - 4em);
   font-size: 2em;
@@ -70,6 +76,8 @@ section.contact {
 
 section.quality {
   background: #502F4C;
+  overflow: hidden;
+  position: relative;
   padding-top: 7em;
   height: calc(100vh - 4em);
   font-size: 2em;
@@ -77,6 +85,8 @@ section.quality {
 
 section.attention {
   background: #DADFF7;
+  overflow: hidden;
+  position: relative;
   color: black;
   padding-top: 7em;
   height: calc(100vh - 4em);
